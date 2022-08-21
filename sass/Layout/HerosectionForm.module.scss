@@ -25,13 +25,99 @@
       height: 55px;
       width: 100%;
     }
-    .dropdown1 {
+    .dropdown1Box {
       padding: 10px;
       position: absolute;
       width: 270px;
       z-index: 1;
-      left: -33px;
+      right: 0px;
       top: 70px;
+      @include box-shadow(0px, 0px, 10px, rgba($black, 0.5));
+      &::after {
+        content: "\ea6a";
+        position: absolute;
+        right: 45%;
+        top: -16px;
+        font-family: "IcoFont", sans-serif;
+        color: #fff;
+        font-size: 24px;
+      }
+      button {
+        flex: 1;
+      }
+      .dropdown1Boxfooter {
+      }
+      .dropdown1BoxTabbtn {
+        display: flex;
+        padding: 6px 0;
+        margin: 0 0.5rem 15px;
+        border: 0.1rem solid #dbdbdb;
+        border-radius: 0.4rem;
+        .ui.button {
+          margin: 0 5px 0px;
+          background: none;
+          color: darkgray;
+          height: 3rem;
+          padding: 0;
+
+          flex: 1;
+          &.active {
+            color: #28b16d;
+            background-color: #e9f7f0;
+            font-weight: 700;
+          }
+        }
+      }
+      .title {
+        font-size: 14px;
+      }
+      .freqBtn {
+        height: 2.2rem;
+        padding: 0 1rem;
+        cursor: pointer;
+        white-space: nowrap;
+        border: 0.1rem solid #dbdbdb;
+        background-color: $white;
+        border-radius: 100px;
+        margin: 0.4rem;
+        font-size: 12px;
+        &.active {
+          background-color: #e9f7f0;
+          color: #28b16d;
+          border: 0.1rem solid #28b16d;
+          font-weight: 700;
+        }
+      }
+      &.dropdown1Box3 {
+        right: 0px;
+        width: 320px;
+        .freqBtn {
+          width: 45%;
+        }
+        .dropdown1BoxTabbtn3 {
+          display: flex;
+          border-radius: 0;
+          .ui.button {
+            border-bottom: 2px solid #eee;
+            border-radius: 0 !important;
+            margin: 0;
+            background: none;
+            color: darkgray;
+            height: 3rem;
+            padding: 0;
+
+            flex: 1;
+            &.active {
+              border-radius: 0;
+
+              border-bottom: 2px solid $basecolor1;
+              color: #28b16d;
+
+              font-weight: 700;
+            }
+          }
+        }
+      }
     }
   }
 }

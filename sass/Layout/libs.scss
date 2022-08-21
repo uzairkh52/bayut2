@@ -1369,7 +1369,7 @@ body {
 .btn {
   font-size: $bfsize + 2;
   font-weight: $semibold;
-  @include border-radius($base-border-radius);
+  @include border-radius(8px);
   text-align: center;
   outline: none;
   text-decoration: none;
@@ -1549,17 +1549,18 @@ body {
   &.btn-secondary {
     &,
     &.disabled {
-      @extend %gradient-2;
+      background-color: #006169;
       color: $white;
       @extend %btn-default-height;
     }
     &:not(.no-hover):hover {
-      background: darken($basecolor2, 10%);
+      background: darken(#006169, 10%);
+      color: $white;
     }
     &.btn-border {
       background: transparent;
-      color: $basecolor2;
-      border: solid 1px $basecolor2;
+      color: #006169;
+      border: solid 1px #006169;
     }
   }
   &.btn-bc1light {
@@ -2884,7 +2885,7 @@ body {
       font-family: $primary-font;
       font-weight: $semibold !important;
       @include padding(1em 2em);
-      @include border-radius(0.8rem1 !important);
+      @include border-radius(8px !important);
       &.huge {
         font-size: $bfsize + 8;
       }
