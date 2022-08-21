@@ -22,7 +22,7 @@ const Herosection = () => {
       <section
         className={styles.Herosection + " bc-center bg-cover"}
         style={{
-          backgroundImage: "url(../../images/111.JPG)",
+          backgroundImage: "url(/images/111.jpg)",
         }}
       >
         <Container>

@@ -13,7 +13,7 @@ const Header = () => {
               <div>UAE</div>
               <div className="flexbox jc-center flex-center">
                 <Image
-                  src="/../public/arabilogo.png"
+                  src="/images/arabilogo.png"
                   alt="Vercel Logo"
                   width={40}
                   height={16}
@@ -44,7 +44,7 @@ const Header = () => {
             <div className={styles.leftCol + " flexbox flex-center"}>
               <div>
                 <Image
-                  src="/../public/images/logosvg.png"
+                  src="/images/logosvg.png"
                   alt="Vercel Logo"
                   width={120}
                   height={27}
