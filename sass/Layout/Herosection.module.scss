@@ -1,0 +1,54 @@
+@import "./variables";
+
+.Herosection {
+  .HerosectionBox {
+    height: 100vh;
+    padding: 100px 0;
+    h1 {
+      font-size: 3.01rem;
+      text-shadow: 0.2rem 0.2rem 0 rgb(0 0 0 / 25%);
+    }
+    .heroTabsbtn {
+      margin: 30px auto 20px;
+      display: table;
+      padding: 6px 0;
+      .ui.button {
+        margin: 0 5px;
+        background: none;
+        color: white;
+        width: 180px;
+        &.active {
+          color: $darkgray;
+          background: $white;
+        }
+      }
+    }
+    .Herosectionform {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .HerosectionformIn {
+        width: 80%;
+        padding: 1.6rem 1.6rem 0.6rem;
+        background: rgba($darkgray, 0.9);
+
+        .Herosectionformcolumn {
+          padding: 5px !important;
+          img {
+            width: 100%;
+          }
+        }
+        .dropdown1Handle {
+          width: 100%;
+          height: 55px;
+          background-color: $white;
+          text-align: left !important;
+        }
+        .submitButton {
+          height: 55px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
