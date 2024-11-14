@@ -1,9 +1,23 @@
 import { Button, Container } from "semantic-ui-react";
 import Image from "next/image";
 import styles from "../sass/Layout/Header.module.scss";
+
+import Script from 'next/script'
+
 const Header = () => {
+  
   return (
     <>
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-N8K09SS4G5"></Script>
+<Script>
+{`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N8K09SS4G5');`}
+</Script>
+
       {/* <Image src="../public/images/favicon.svg" alt="Vercel Logo" /> */}
 
       <section className={styles.Header1}>
