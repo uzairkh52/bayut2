@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../sass/Layout/Header.module.scss";
 
 import Script from 'next/script'
+import Head from 'next/head';
 
 const Header = () => {
   
@@ -19,6 +20,10 @@ const Header = () => {
   gtag('config', 'G-4TRSZ5V876');
 `}
 </Script>
+
+<Head>
+  <meta name="google-site-verification" content="google0f0cd3c9072b42a6.html" />
+</Head>
 
       {/* <Image src="../public/images/favicon.svg" alt="Vercel Logo" /> */}
 
