@@ -66,47 +66,14 @@ const Header = () => {
                 <li>
                   <a href="" className={styles.dropdownbtn}>
                     Guides{" "}
-                    <i className={styles.arrow + " icofont-caret-down"}></i>
-                    <ul className={styles.dropdown + " no-list white-bg hide"}>
-                      <li>
-                        <a href="">Area Guides</a>
-                      </li>
-                      <li>
-                        <a href="">Building Guides</a>
-                      </li>
-                      <li>
-                        <a href="">School Guides</a>
-                      </li>
-                    </ul>
+                    
                   </a>
                 </li>
                 <li>
                   <a href="" className={styles.dropdownbtn}>
                     Market Intelligence{" "}
                     <i className={styles.arrow + " icofont-caret-down"}></i>
-                    <ul className={styles.dropdown + " no-list white-bg hide"}>
-                      <li>
-                        <a href="">TruValue™</a>
-                      </li>
-                      <li>
-                        <a href="">Property Prices</a>
-                      </li>
-                      <li>
-                        <a href="">Dubai Transactions</a>
-                      </li>
-
-                      <li>
-                        <a href="">NEW</a>
-                      </li>
-
-                      <li>
-                        <a href="">Trends</a>
-                      </li>
-
-                      <li>
-                        <a href="">New Projects</a>
-                      </li>
-                    </ul>
+                    
                   </a>
                 </li>
                 <li>
@@ -116,14 +83,7 @@ const Header = () => {
                   <a href="" className={styles.dropdownbtn}>
                     Events{" "}
                     <i className={styles.arrow + " icofont-caret-down"}></i>
-                    <ul className={styles.dropdown + " no-list white-bg hide"}>
-                      <li>
-                        <a href="">B3DXB 2022</a>
-                      </li>
-                      <li>
-                        <a href="">Your Home Your Choice</a>
-                      </li>
-                    </ul>
+                    
                   </a>
                 </li>
               </ul>
