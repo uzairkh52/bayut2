@@ -31,7 +31,7 @@ const Herosection = () => {
               {tab1btn === true ? (
                 <>
                   <h1 className="align-center white">
-                    Search properties for sale and to rent in the UAE test3
+                    Search properties for sale and to rent in the UAE test1
                   </h1>
                 </>
               ) : tab2tn === true ? (
