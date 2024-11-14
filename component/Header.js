@@ -8,14 +8,16 @@ const Header = () => {
   
   return (
     <>
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-N8K09SS4G5"></Script>
+{/* <!-- Google tag (gtag.js) --> */}
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-4TRSZ5V876"></Script>
 <Script>
 {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-N8K09SS4G5');`}
+  gtag('config', 'G-4TRSZ5V876');
+`}
 </Script>
 
       {/* <Image src="../public/images/favicon.svg" alt="Vercel Logo" /> */}
